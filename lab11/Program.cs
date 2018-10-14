@@ -39,13 +39,15 @@ namespace lab11
                 Console.WriteLine(res);
             }
 
-            
-            Console.WriteLine("\n");
-            Console.WriteLine("Только летние и зимние месяцы");
-            foreach (var res in result)
-            {
-                Console.WriteLine(res);
-            }
+
+                               
+
+            //Console.WriteLine("\n");
+            //Console.WriteLine("Только летние и зимние месяцы");
+            //foreach (var res in result)
+            //{
+            //    Console.WriteLine(res);
+            //}
 
         }
     }
