@@ -109,5 +109,17 @@ namespace lab11
             }
            
         }
+
+        public List<MyDate> ToList()
+        {
+            MyDate date = new MyDate();
+            date = this as MyDate;
+
+            if (date != null)
+            {
+                return new List<MyDate>() { date };
+            }
+            else throw new InvalidCastException("Невозможно преобразовать в MyDate");
+        }
     }
 }
